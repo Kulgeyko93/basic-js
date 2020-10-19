@@ -15,7 +15,7 @@ describe('Recursive depth', () => {
     //Presence requirement
     describe('variable presence', () => {
         it.optional('function calculateDepth exists', () => {
-            expect(instance.calculateDepth).to.exist;
+            expect(calculateDepth).to.exist;
         });
     });
 
